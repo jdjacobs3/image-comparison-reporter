@@ -1,0 +1,22 @@
+{
+  "name": "image-comparison-reporter",
+  "version": "1.0.0",
+  "description": "nodejs image comparison tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./src/tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git-repo-example.com"
+  },
+  "keywords": [
+    "image-comparison"
+  ],
+  "author": "Joseph Jacobs",
+  "license": "ISC",
+  "dependencies": {
+    "resemblejs": "^3.1.0",
+    "yargs": "^13.2.4"
+  }
+}
